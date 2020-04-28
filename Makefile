@@ -3,4 +3,4 @@ go-run:
 
 go-test:
 	cd cmd && \
-	go test
+	go test -v
