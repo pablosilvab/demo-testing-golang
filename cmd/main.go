@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func Sum(x int, y int) int {
-	return x + y
+// Hello return msg "Hello <val>"
+func Hello(val string) string {
+	return "Hello " + val
 }
 
 func main() {
-	result := Sum(5, 5)
-	fmt.Println(result)
+	fmt.Print("Testing...")
 }
