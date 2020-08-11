@@ -23,3 +23,9 @@ go-build:
 
 go-run:
 	go run main.go
+
+go-test:
+	go test -v
+
+go-cover:
+	go test -cover
